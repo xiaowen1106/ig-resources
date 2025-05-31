@@ -57,12 +57,69 @@
         .credit a:hover {
             text-decoration: underline;
         }
+        .custom-share-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .copy-text {
+            font-size: 14px;
+            color: #666;
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #e1306c;
+            max-width: 280px;
+        }
+        .share-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .share-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            color: white;
+        }
+        .instagram-btn {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+        .instagram-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .facebook-btn {
+            background-color: #1877f2;
+        }
+        .twitter-btn {
+            background-color: #1da1f2;
+        }
         @media (max-width: 768px) {
             .cards-grid {
                 grid-template-columns: 1fr;
             }
             body {
                 padding: 15px;
+            }
+            .custom-share-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            .share-btn {
+                width: 200px;
+                text-align: center;
             }
         }
     </style>
@@ -85,6 +142,10 @@
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
             </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
+            </div>
         </div>
 
         <div class="card">
@@ -100,6 +161,10 @@
             </div>
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
+            </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
             </div>
         </div>
 
@@ -117,6 +182,10 @@
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
             </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
+            </div>
         </div>
 
         <div class="card">
@@ -132,6 +201,10 @@
             </div>
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
+            </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
             </div>
         </div>
 
@@ -149,6 +222,10 @@
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
             </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
+            </div>
         </div>
 
         <div class="card">
@@ -164,6 +241,10 @@
             </div>
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
+            </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
             </div>
         </div>
 
@@ -181,6 +262,10 @@
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
             </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
+            </div>
         </div>
 
         <div class="card">
@@ -196,6 +281,10 @@
             </div>
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
+            </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
             </div>
         </div>
 
@@ -213,6 +302,10 @@
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
             </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
+            </div>
         </div>
 
         <div class="card">
@@ -229,7 +322,105 @@
             <div class="credit">
                 <a href="https://www.canva.com/design/DAGo_QgEjs0/SezpnluwAj9IjxpmGkjalg/view?utm_content=DAGo_QgEjs0&utm_campaign=designshare&utm_medium=embeds&utm_source=link" target="_blank" rel="noopener">Green and White Music Player Instagram Story</a> by xiaowen zhang
             </div>
+            <div class="custom-share-buttons">
+                <p class="copy-text">Check out this amazing music player design! 🎵 Perfect for your Instagram stories. #MusicPlayer #InstagramStory #Design</p>
+                <button class="share-btn instagram-btn" onclick="copyToClipboard(this)">📷 Copy & Open Instagram</button>
+            </div>
         </div>
     </div>
+    
+    <script>
+        function copyToClipboard(button) {
+            // Find the text to copy from the same card
+            const card = button.closest('.card');
+            const textToCopy = card.querySelector('.copy-text').textContent;
+            
+            // Copy to clipboard
+            navigator.clipboard.writeText(textToCopy).then(function() {
+                // Success feedback
+                const originalText = button.textContent;
+                button.textContent = '✅ Copied!';
+                button.style.background = '#28a745';
+                
+                // Open Instagram after copying
+                setTimeout(function() {
+                    // Try to open Instagram app first (mobile), then web
+                    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+                    
+                    if (/android/i.test(userAgent)) {
+                        // Android - try Instagram app first
+                        window.location.href = 'intent://instagram.com/#Intent;package=com.instagram.android;scheme=https;end';
+                        // Fallback to web after a short delay
+                        setTimeout(function() {
+                            window.open('https://www.instagram.com/', '_blank');
+                        }, 1000);
+                    } else if (/iPad|iPhone|iPod/.test(userAgent)) {
+                        // iOS - try Instagram app first
+                        window.location.href = 'instagram://';
+                        // Fallback to web after a short delay
+                        setTimeout(function() {
+                            window.open('https://www.instagram.com/', '_blank');
+                        }, 1000);
+                    } else {
+                        // Desktop - open Instagram web
+                        window.open('https://www.instagram.com/', '_blank');
+                    }
+                }, 500);
+                
+                // Reset button after 3 seconds
+                setTimeout(function() {
+                    button.textContent = originalText;
+                    button.style.background = 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)';
+                }, 3000);
+            }).catch(function(err) {
+                // Fallback for older browsers
+                console.error('Could not copy text: ', err);
+                
+                // Create a temporary textarea element
+                const textArea = document.createElement('textarea');
+                textArea.value = textToCopy;
+                document.body.appendChild(textArea);
+                textArea.select();
+                
+                try {
+                    document.execCommand('copy');
+                    const originalText = button.textContent;
+                    button.textContent = '✅ Copied!';
+                    button.style.background = '#28a745';
+                    
+                    // Open Instagram after copying
+                    setTimeout(function() {
+                        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+                        
+                        if (/android/i.test(userAgent)) {
+                            window.location.href = 'intent://instagram.com/#Intent;package=com.instagram.android;scheme=https;end';
+                            setTimeout(function() {
+                                window.open('https://www.instagram.com/', '_blank');
+                            }, 1000);
+                        } else if (/iPad|iPhone|iPod/.test(userAgent)) {
+                            window.location.href = 'instagram://';
+                            setTimeout(function() {
+                                window.open('https://www.instagram.com/', '_blank');
+                            }, 1000);
+                        } else {
+                            window.open('https://www.instagram.com/', '_blank');
+                        }
+                    }, 500);
+                    
+                    setTimeout(function() {
+                        button.textContent = originalText;
+                        button.style.background = 'linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)';
+                    }, 3000);
+                } catch (err) {
+                    button.textContent = '❌ Copy failed';
+                    setTimeout(function() {
+                        button.textContent = '📷 Copy for Instagram';
+                    }, 2000);
+                }
+                
+                document.body.removeChild(textArea);
+            });
+        }
+    </script>
 </body>
 </html> 
